@@ -17,7 +17,6 @@
     <!-- section identitas -->
     <div class="container my-4">
         <div class="row">
-            <h3>Kepala Sekolah Sekolah</h3>
         </div>
         <div class="row ">
             <div class="col-lg-12 d-flex justify-content-center">

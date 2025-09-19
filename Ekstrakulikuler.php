@@ -20,6 +20,7 @@
                 <h2 class="text-center">EKSTRAKULIKULER</h2>
                 <hr>
                 <div class="d-flex justify-content-evenly">
+                    <div class="card border-0 shadow rounded-5 p-2 mb-1">
                     <div class="row">
                         <div class="col-3">
                             <div class="card">

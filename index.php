@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br><br>
         <!-- TUTUP SECTION BERITA -->
 
         <!--SECTION GALERI  -->
@@ -95,7 +95,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><br>
     <!-- TUTUP SECTION GALERI -->
 
     <!-- SECTION STASTISTIK -->
@@ -136,7 +136,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><br><br>
     <!--TUTUP SECTION STATISTIK  -->
 
 
