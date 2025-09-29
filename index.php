@@ -31,7 +31,7 @@
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
-                                <img src="image/polsek.jpg" alt="" width="600" height="400">
+                                <img src="image/polsek.jpg" alt="" width="510" height="400">
                             </div>
                             <div class="card-body">
                                 <h3>Kapolsek Cibeureum Berikan Penyuluhan tentang Larangan Knalpot Brong dan Geng Motor
@@ -45,7 +45,7 @@
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
-                                <img src="image/ujian_pd.JPG" alt="" width="600" height="400">
+                                <img src="image/ujian_pd.JPG" alt="" width="510" height="430">
                             </div>
                             <div class="card-body">
                                 <h3>320 Pesilat Perisai Diri Ikuti UKT Periode 72 di SMKN 4 Tasikmalaya, Penerimaan

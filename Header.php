@@ -34,7 +34,7 @@
                         <a class="nav-link" href="Ekstrakulikuler.php"><b>Ektrakurikuler</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Galeri.">
+                        <a class="nav-link" href="Galeri.php">
                             <b>Galeri</b></a>
                     </li>
                 </ul>

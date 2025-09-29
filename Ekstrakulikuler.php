@@ -15,160 +15,55 @@
     <?php include 'Header.php'; ?>
 
     <div class="container">
-        <div class="row">
             <div class="col-12">
                 <h2 class="text-center">EKSTRAKULIKULER</h2>
                 <hr>
                 <div class="d-flex justify-content-evenly">
                     <div class="card border-0 shadow rounded-5 p-2 mb-1">
                     <div class="row">
+                        <div class="row">
+            <?php $eskul = [
+                ["gambar" => "image/volly.jpeg", "nama" => "volly"],
+                ["gambar" => "image/basket.png", "nama" => "Basket"],
+                ["gambar" => "image/bulutangkis.png", "nama" => "Bulutangkis"],
+                ["gambar" => "image/cinematography.png", "nama" => "Cinematography"],
+                ["gambar" => "image/englishclub.png", "nama" => "English Club"],
+                ["gambar" => "image/Futsal.png", "nama" => "Futsal"],
+                ["gambar" => "image/itclub.png", "nama" => "IT Club"],
+                ["gambar" => "image/laskarpustaka.png", "nama" => "Laskar Pustaka"],
+                ["gambar" => "image/paskibra.png", "nama" => "Paskibra"],
+                ["gambar" => "image/pks.png", "nama" => "PKS"],
+                ["gambar" => "image/plh.png", "nama" => "PLH"],
+                ["gambar" => "image/pmr.png", "nama" => "PMR"],
+                ["gambar" => "image/pramuka..png", "nama" => "Pramuka"],
+                ["gambar" => "image/Rohis.jpg", "nama" => "Rohis"],
+                ["gambar" => "image/sepakbola.jpeg", "nama" => "Sepak Bola"],
+                ["gambar" => "image/logo_pd.jpeg", "nama" => "Perisai diri"],
+                ["gambar" => "image/Cari aman.png", "nama" => "Safety Riding"],
+            ];
+            foreach ($eskul as $item) {
+
+            ?>
                         <div class="col-3">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="image/volly.jpeg" alt="" class="w-100 h-50">
+                                    <img src="<?= $item [ 'gambar']?>" alt="" class="w-100 h-50">
                                     <p class="text-center">
-                                    <p><b>volly</b></p>
+                                    <p><b><?= $item ['nama']?></b></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/futsal.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Futsal</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/sepakbola.jpeg" alt="" class="w-100 h-30">
-                                    <p class="text-center"><b>Sepak Bola</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/Rohis.jpg" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Rohis</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/pramuka..png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Pramuka</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/pmr.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Pmr</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/plh.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>PLH</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/pks.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>PKS</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/paskibra.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Paskibra</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/osis.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Seni</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/logo_pd.jpeg" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Perisai Diri</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/laskarpustaka.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Laskar Pustaka</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/itclub.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>IT Club</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/englishclub.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Englis Club</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/cinematography.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Cinematograpy</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/bulutangkis.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Bulu Tangkis</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="image/Cari aman.png" alt="" class="w-100 h-50">
-                                    <p class="text-center"><b>Safety Riding</b></p>
-                                </div>
-                            </div>
-                        </div><br>
+                        <?php }?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <br>
-<!-- Selection foother -->
-<?php include 'Footer.php'; ?>
+<br>
+
+    <!-- Selection foother -->
+<?php include 'Footer.php'?>
 <!-- Tutup Selection Foother -->
-    
 </body>
 
 </html>
