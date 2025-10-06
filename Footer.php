@@ -35,7 +35,7 @@
                     <div class="container mt-5 text-white">
                         <h3>MEDIA SOSIAL</h3>
                         <h4>
-                            <p><a href="">Facebook</a></p>
+                            <p><a href="https://web.facebook.com/SMKN4Admin">Facebook</a></p>
                         </h4>
                         <h4>
                             <p><a
