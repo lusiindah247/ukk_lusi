@@ -9,6 +9,40 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <title>SMKN MERKURIUS SCHOOL</title>
+    <style>
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #8dc8e5ff;
+    padding: 40px 0;
+    }
+
+    .stat-card {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-weight: 600;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+
+    .stat-label {
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    }
+</style>
 </head>
 
 <body>

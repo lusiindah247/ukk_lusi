@@ -9,6 +9,13 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
     <title>SMKN MERKURIUS SCHOOL</title>
+    <style>
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #8dc8e5ff;
+    padding: 40px 0;
+    }
+    </style>
 </head>
 
 <body>

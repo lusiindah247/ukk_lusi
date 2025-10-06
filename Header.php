@@ -1,5 +1,29 @@
-<nav class="navbar navbar-expand-lg navbar-light bg- sticky-top">
-        <div class="container bg-light-subtle rounded-4 p-2 shadow p-1 mb-3 bg-body-transparant rounded mt-1 pt-1">
+<style>
+ /* Navbar */
+    .navbar {
+    transition: all 0.4s ease;
+      background: rgba(32, 66, 100, 0.95); /* warna awal */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .navbar.scrolled {
+    background: rgba(0, 51, 102, 0.7); /* jadi transparan ketika scroll */
+    backdrop-filter: blur(10px); /* efek kaca */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+    .navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: 500;
+    }
+
+    .nav-link:hover {
+    color: #ffcc00 !important;
+    }
+    </style>
+    
+    <nav class="navbar navbar-expand-lg bg- sticky-top">
+        <div class="container rounded-4 p-2 shadow   ">
             <img src="./image/logo.png" alt="" width="80px" height="90px">&nbsp;
             <a class="navbar-brand" href="#"><b>SMKN 4 Tasikmalaya</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

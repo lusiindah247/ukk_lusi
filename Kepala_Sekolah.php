@@ -9,6 +9,56 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
     <title>SMKN MERKURIUS SCHOOL</title>
+    <style>
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    }
+
+    /* Sambutan Section */
+    .sambutan-container {
+    max-width: 1000px;
+    margin: 80px auto;
+    background: white;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    }
+    .sambutan-container:hover {
+    transform: translateY(-5px);
+    }
+    .sambutan-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #003366;
+    }
+
+    .kepsek-img {
+    display: block;
+    margin: 0 auto 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 250px;
+    transition: transform 0.3s ease;
+    }
+    .kepsek-img:hover {
+    transform: scale(1.05);
+    }
+
+    .sambutan-text {
+    text-align: justify;
+    line-height: 1.8;
+    }
+
+    .sambutan-text p:first-child {
+    font-style: italic;
+    font-weight: 500;
+    color: #005599;
+    }
+</style>
 </head>
 
 <body>

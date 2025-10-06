@@ -9,6 +9,26 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
     <title>SMKN MERKURIUS SCHOOL</title>
+    <style>
+        body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #8dc8e5ff;
+    padding: 40px 0;
+    }
+
+.card  {
+text-align: center;
+background-color: transparent;
+padding: 20px;
+}
+
+.logo-container img {
+width: 200px; /* sesuaikan ukuran */
+height: auto;
+background: transparent;
+border:none;
+}
+</style>
 </head>
 
 <body>
@@ -22,7 +42,7 @@
         <div class="row ">
             <div class="col-lg-12 d-flex justify-content-center">
                 <div class="card border-0 mb-3">
-                    <img src="./image/logo.png" alt="" width="200" height="250">
+                    <img src="./image/Logo.png" alt="" width="200" height="250">
                 </div>
             </div>
         </div>

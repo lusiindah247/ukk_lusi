@@ -9,10 +9,11 @@
             width: 210%;
             height: 300px;
         }
+        
     </style>
 </head>
 <body>
-    <div class="container-fluid row border-bottom" style="background-color:rgb(131, 171, 206);">
+    <div class="container-fluid row border-bottom" style="background-color:rgba(44, 87, 122, 1);">
         <div class="col-lg-12">
             <div class="row">
                 <div class="col-lg-6">
