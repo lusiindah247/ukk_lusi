@@ -46,6 +46,8 @@
 </head>
 
 <body>
+    <!-- Slection index -->
+    
     <?php include 'Header.php'; ?>
 <div class="card text-bg-dark">
     <img src="./image/latar.jpg" class="card-img" alt="...">
@@ -56,46 +58,45 @@
 </div>
 </div>
 <br><br>
-    <div class="container">
-        <!-- SECTION BERITA -->
+    
+        <div class="container">
+        <!-- Selection Berita -->
         <div class="row">
             <div class="col-lg-12">
-                <h2><center>Berita</center></h2>
+                <h2>Berita</h2>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
                         <div class="card">
-                            <div class="card-header">
-                                <img src="image/polsek.jpg" alt="" width="510" height="400">
-                            </div>
+                            <img src="./image/lapang.jpeg" class="card-img-top" alt="..." width="510" height="400">
                             <div class="card-body">
-                                <h3>Kapolsek Cibeureum Berikan Penyuluhan tentang Larangan Knalpot Brong dan Geng Motor
-                                    di SMKN 4 Kota Tasikmalaya</h3>
-                                <a class="btn btn-info"
-                                    href="https://newstasikmalaya.com/kapolsek-cibeureum-berikan-penyuluhan-tentang-larangan-knalpot-brong-dan-geng-motor-di-smkn-4-kota-tasikmalaya">Baca
-                                    Selengkapnya</a>
+                                <h5 class="card-title">Polsek Cibeureum Sosialisasikan Larangan Knalpot Brong dan Geng
+                                    Motor di
+                                    SMKN
+                                    4 Kota Tasikmalaya</h5>
+                                <a href="https://tasikmalaya.inews.id/read/502735/polsek-cibeureum-sosialisasikan-larangan-knalpot-brong-dan-geng-motor-di-smkn-4-kota-tasikmalaya"
+                                    class="btn btn-info" target="_blank">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-sm-6">
                         <div class="card">
-                            <div class="card-header">
-                                <img src="image/ujian_pd.JPG" alt="" width="510" height="430">
-                            </div>
+                            <img src="./image/ujian_pd.JPG" class="card-img-top" alt="..." width="510" height="400">
                             <div class="card-body">
-                                <h3>320 Pesilat Perisai Diri Ikuti UKT Periode 72 di SMKN 4 Tasikmalaya, Penerimaan
-                                    Anggota Baru Dibuka</h3>
-                                <a class="btn btn-info"
-                                    href="https://kabarpriangan.pikiran-rakyat.com/kabar-priangan/pr-1488326544/320-pesilat-perisai-diri-ikuti-ukt-periode-72-di-smkn-4-tasikmalaya-penerimaan-anggota-baru-dibuka">Baca
-                                    Selengkapnya</a>
+                                <h5 class="card-title">320 Pesilat Perisai Diri Ikuti UKT Periode 72 di SMKN 4
+                                    Tasikmalaya,
+                                    Penerimaan Anggota Baru Dibuka</h5>
+                                <a href="https://kabarpriangan.pikiran-rakyat.com/kabar-priangan/pr-1488326544/320-pesilat-perisai-diri-ikuti-ukt-periode-72-di-smkn-4-tasikmalaya-penerimaan-anggota-baru-dibuka?page=all"
+                                    class="btn btn-info" targer="_blank">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><br><br>
+        </div>
+    </div><br><br>
         <!-- TUTUP SECTION BERITA -->
 
-        <!--SECTION GALERI  -->
+        <!--SECTION GALERI Index -->
 
         <?php
         $images =[
@@ -130,7 +131,7 @@
             </div>
         </div>
     </div><br>
-    <!-- TUTUP SECTION GALERI -->
+    <!-- TUTUP SECTION GALERI Index -->
 
     <!-- SECTION STASTISTIK -->
     <div class="row">

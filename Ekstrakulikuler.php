@@ -14,6 +14,7 @@
 <body>
     <?php include 'Header.php'; ?>
 
+        <!-- Selection Ekstrakulikuler -->
     <div class="container">
             <div class="col-12">
                 <h2 class="text-center">EKSTRAKULIKULER</h2>
@@ -60,6 +61,9 @@
         </div>
     </div>
 <br>
+
+    <!-- Tutup Ekstrakulikuler -->
+
 
     <!-- Selection foother -->
 <?php include 'Footer.php'?>

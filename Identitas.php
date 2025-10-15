@@ -32,6 +32,8 @@ border:none;
 </head>
 
 <body>
+<!-- Selectio Identitas -->
+
     <?php include 'Header.php'; ?>
 
     <!-- section identitas -->
@@ -86,6 +88,7 @@ border:none;
         </div>
     </div>
     <!-- tutup section indentitas -->
+    
 <!-- Selection foother -->
 <?php include 'Footer.php'; ?>
 <!-- Tutup Selection Foother -->

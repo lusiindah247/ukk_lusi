@@ -106,7 +106,7 @@
             </div>
         </div>
     </div>
-    <!-- TUTUP SECTION GALERI -->
+    <!-- TUTUP GALERI -->
 
 
 <!-- Selection foother -->

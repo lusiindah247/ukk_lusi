@@ -13,6 +13,8 @@
     </style>
 </head>
 <body>
+    <!-- Selection Footer -->
+
     <div class="container-fluid row border-bottom" style="background-color:rgba(44, 87, 122, 1);">
         <div class="col-lg-12">
             <div class="row">
@@ -69,5 +71,7 @@
         </div>
     </div>
     <br>
+
+    <!-- Tutup Footer-->
 </body>
 </html>

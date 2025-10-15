@@ -13,7 +13,7 @@
 
 <body>
     <?php include 'Header.php'; ?>
-    <!-- section identitas -->
+    <!-- section Visi&Misi -->
     <div class="container my-5">
         <div class="row">
         </div>
@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-    <!-- tutup section -->
+    <!-- tutup section Visi&misi-->
 
 <!-- Selection foother -->
 <?php include 'Footer.php'; ?>
