@@ -9,6 +9,8 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <title>SMKN MERKURIUS SCHOOL</title>
+
+
 </head>
 
 <body>

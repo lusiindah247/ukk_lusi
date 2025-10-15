@@ -10,10 +10,10 @@
         crossorigin="anonymous"></script>
     <title>SMKN MERKURIUS SCHOOL</title>
     <style>
-    body {
+        body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #8dc8e5ff;
+    padding: 40px 0;
     }
 
     /* Sambutan Section */
@@ -65,7 +65,7 @@
     <?php include 'Header.php'; ?>
 
     <!-- section Sambutan -->
-    <div class="container my-4">
+    <div class="container bg-light-subtle rounded-5 p-5 shadow p-3 mb-5 bg-body-tertiary rounded mt-4 pt-5">
         <div class="row">
         </div>
         <div class="row ">
