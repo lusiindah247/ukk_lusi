@@ -42,6 +42,21 @@
     font-size: 1.1rem;
     letter-spacing: 0.5px;
     }
+
+    .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+    h3 {
+    font-size: 2rem;
+    color: #0b3a60ff;
+    font-weight: bold;
+    }
 </style>
 </head>
 
@@ -134,44 +149,65 @@
     <!-- TUTUP SECTION GALERI Index -->
 
     <!-- SECTION STASTISTIK -->
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="card text-center border-1">
-                        <div class="card-body">
-                            <h3>1500</h3>
-                            Peserta Didik
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card text-center border-1">
-                        <div class="card-body">
-                            <h3>100</h3>
-                            Pendidik
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card text-center border-1">
-                        <div class="card-body">
-                            <h3>60</h3>
-                            Romble
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card text-center border-1">
-                        <div class="card-body">
-                            <h3>5</h3>
-                            Keahlian
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container" >
+<div class="row text-center">
+    <div class="col-lg-3 col-md-6 mb-3" >
+    <div class="card border-0">
+        <div class="card-body">
+        <h3 id="peserta" class="counter" data-target="1500">0</h3>
+        <p>Peserta Didik</p>
         </div>
-    </div><br><br>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-3">
+    <div class="card border-0">
+        <div class="card-body">
+        <h3 id="pendidik" class="counter" data-target="100">0</h3>
+        <p>Pendidik</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-3">
+    <div class="card border-0">
+        <div class="card-body">
+        <h3 id="rombel" class="counter" data-target="60">0</h3>
+        <p>Rombel</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-3">
+    <div class="card border-0">
+        <div class="card-body">
+        <h3 id="keahlian" class="counter" data-target="5">0</h3>
+        <p>Keahlian</p>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<script>
+  // Fungsi animasi angka naik
+const counters = document.querySelectorAll('.counter');
+  const speed = 100; // Semakin kecil semakin cepat
+
+counters.forEach(counter => {
+    const updateCount = () => {
+    const target = +counter.getAttribute('data-target');
+    const count = +counter.innerText;
+    const increment = target / speed;
+
+    if (count < target) {
+        counter.innerText = Math.ceil(count + increment);
+        setTimeout(updateCount, 20);
+    } else {
+        counter.innerText = target;
+    }
+    };
+    updateCount();
+});
+</script>
+
     <!--TUTUP SECTION STATISTIK  -->
 
 
